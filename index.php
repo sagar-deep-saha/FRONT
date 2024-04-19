@@ -23,17 +23,16 @@
             <input type="date" name="date" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
         </div>
         <select class="form-select" aria-label="Default select example" name="subject">
-            <option value="1">Effective Technical Communication </option>
-            <option value="2">Mathematics-III</option>
-            <option value="3">Biology for Engineers </option>
-            <option value="4"> Engineering Mechanics</option>
-            <option value="5"> Digital Logic & Microprocessor. </option>
-            <option value="6"> Data Structure & Algorithm </option>
-            <option value="7"> Java Programming Lab </option>
-            <option value="8"> Data Structure Lab </option>
-            <option value="9">Digital Electronics & Microprocessor Lab </option>
-            <option value="10">Indian Constitution </option>
-
+            <option value="1">Engineering Economics and Accountancy</option>
+            <option value="2">Universal Human Values-II</option>
+            <option value="3">Discrete Mathematics </option>
+            <option value="4">Computer Organization & Architecture </option>
+            <option value="5"> Operating Systems </option>
+            <option value="6">Object Oriented Programming </option>
+            <option value="7">IT Workshop (Python/R) </option>
+            <option value="8"> Operating System Lab </option>
+            <option value="9">Object Oriented Programming Lab </option>
+            <option value="10">Essence of Indian Knowledge Tradition </option>
         </select>
         <button type="submit" name="create">Create</button>
     </form>
