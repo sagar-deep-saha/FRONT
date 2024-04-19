@@ -146,7 +146,7 @@ if (isset($_POST['create'])) {
 
     // $pdf->Cell(70, 10, "       SEMESTER  :", 0, 0, 'L');
     $pdf->Cell(70, 5, "       ", 0, 0, 'L');
-    $pdf->Cell(110,12, '4TH SEMESTER', 0, 1, 'L');
+    $pdf->Cell(110,12, '5TH SEMESTER', 0, 1, 'L');
     $pdf->Cell(180, 5, '', 0, 1, 'L');
 
     // $pdf->Cell(70, 10, "       DATE  :", 0, 0, 'L');
