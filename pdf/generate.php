@@ -66,6 +66,7 @@ $name =  $_POST['name'];
 $roll =  $_POST['roll'];
 $date =  $_POST['date'];
 $subject =  $_POST['subject'];
+$semester =  $_POST['semester'];
 // $subject += 1;
 // $max = strval($may);
 // $max = (string) $may;
@@ -107,7 +108,7 @@ if (isset($_POST['create'])) {
     // $pdf->Cell(180, 10, '', 0, 1, 'L');
     // $pdf->Cell(180, 10, '', 0, 1, 'L');
 
-    $pdf->Image("../sub/$subject.png", 0, 0, 210, 297);
+    $pdf->Image("../$semester/$subject.png", 0, 0, 210, 297);
     // $pdf->Image("../l1.png", 0, 0, 210, 297);
     // $pdf->Image('../'.$img, 160, 9, 20, 20);
     // $pdf->Cell(180,10,"Payment Slip for ".$month." ".$year, 0, 1, 'L');
@@ -146,7 +147,7 @@ if (isset($_POST['create'])) {
 
     // $pdf->Cell(70, 10, "       SEMESTER  :", 0, 0, 'L');
     $pdf->Cell(70, 5, "       ", 0, 0, 'L');
-    $pdf->Cell(110,12, '6TH SEMESTER', 0, 1, 'L');
+    $pdf->Cell(110,12, $semester." SEMESTER", 0, 1, 'L');
     $pdf->Cell(180, 5, '', 0, 1, 'L');
 
     // $pdf->Cell(70, 10, "       DATE  :", 0, 0, 'L');

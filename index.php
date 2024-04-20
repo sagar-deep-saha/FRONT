@@ -14,26 +14,47 @@
             <label for="formGroupExampleInput">Name</label>
             <input type="text" name="name" class="form-control" id="formGroupExampleInput" placeholder="Example input">
         </div>
+        <br>
         <div class="form-group">
             <label for="formGroupExampleInput2">Roll</label>
             <input type="text" name="roll" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
         </div>
+        <br>
         <div class="form-group">
             <label for="formGroupExampleInput2">Date</label>
             <input type="date" name="date" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
         </div>
-        <select class="form-select" aria-label="Default select example" name="subject">
-            <option value="1">Digital Image Processing</option>
-            <option value="2">Compiler Design </option>
-            <option value="3">Cryptography and Network Security </option>
-            <option value="4">Software Engineering  </option>
-            <option value="5"> Advanced Java Lab </option>
-            <option value="6">Web Technology Lab </option>
-            <option value="7">Image Processing Lab </option>
-            <option value="8">Advanced Computer Architecture</option>
-            <option value="9">Data Mining</option>
-            <option value="10">Web Technology</option>
-        </select>
+        <br>
+        <div class="form-group">
+            <label for="formGroupExampleInput2">Semester</label>
+            <select class="form-select" aria-label="Default select example" name="semester">
+                <option value="1ST">1ST</option>
+                <option value="2ND">2ND</option>
+                <option value="3RD">3RD</option>
+                <option value="4TH">4TH</option>
+                <option value="5TH">5TH</option>
+                <option value="6TH">6TH</option>
+                <option value="7TH">7TH</option>
+                <option value="8TH">8TH</option>
+            </select>
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="formGroupExampleInput2">Subject</label>
+            <select class="form-select" aria-label="Default select example" name="subject">
+                <option value="1">Digital Image Processing</option>
+                <option value="2">Compiler Design </option>
+                <option value="3">Cryptography and Network Security </option>
+                <option value="4">Software Engineering </option>
+                <option value="5"> Advanced Java Lab </option>
+                <option value="6">Web Technology Lab </option>
+                <option value="7">Image Processing Lab </option>
+                <option value="8">Advanced Computer Architecture</option>
+                <option value="9">Data Mining</option>
+                <option value="10">Web Technology</option>
+            </select>
+        </div>
+        <br>
         <button type="submit" name="create">Create</button>
     </form>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
