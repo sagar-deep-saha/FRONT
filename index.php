@@ -13,22 +13,22 @@
     <form action="pdf/generate.php" method="POST" style="margin: 10%;">
         <div class="form-group">
             <label for="formGroupExampleInput">Name</label>
-            <input type="text" name="name" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+            <input type="text" name="name" class="form-control" id="formGroupExampleInput" placeholder="Example input" required>
         </div>
         <br>
         <div class="form-group">
             <label for="formGroupExampleInput2">Roll</label>
-            <input type="text" name="roll" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+            <input type="text" name="roll" class="form-control" id="formGroupExampleInput2" placeholder="Another input" required>
         </div>
         <br>
         <div class="form-group">
             <label for="formGroupExampleInput2">Date</label>
-            <input type="date" name="date" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+            <input type="date" name="date" class="form-control" id="formGroupExampleInput2" placeholder="Another input" required>
         </div>
         <br>
         <div class="form-group">
             <label for="formGroupExampleInput2">Semester</label>
-            <select class="form-select" aria-label="Default select example" name="semester" id="sem">
+            <select class="form-select" aria-label="Default select example" name="semester" id="sem" required>
                 <!-- <option value="1ST">1ST</option> -->
                 <!-- <option value="2ND">2ND</option> -->
                 <option value="" hidden>Select</option>
