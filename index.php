@@ -45,7 +45,7 @@
             <label for="formGroupExampleInput2">Subject</label>
 
 
-            <select class="form-select" aria-label="Default select example" name="subject" id="alternate3">
+            <select class="form-select" aria-label="Default select example" name="subject" id="alternate3" required>
                 <option class="" value="" hidden>Select Subject</option>
                 <option class="porn3" value="1">Effective Technical Communication </option>
                 <option class="porn3" value="2">Mathematics-III</option>
