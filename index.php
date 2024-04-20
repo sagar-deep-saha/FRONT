@@ -23,10 +23,8 @@
             <input type="date" name="date" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
         </div>
         <select class="form-select" aria-label="Default select example" name="subject">
-            <option value="1">Professional Practice,
-Law and Ethics </option>
-            <option value="2">Design and Analysis of
-Algorithm</option>
+            <option value="1">Professional Practice, Law and Ethics </option>
+            <option value="2">Design and Analysis of Algorithm</option>
             <option value="3">Database Management Systems  </option>
             <option value="4">Formal Language & Automata Theory</option>
             <option value="5"> Artificial Intelligence </option>
